@@ -7,6 +7,8 @@
  *
  * @author Juanm
  */
-public interface Motor {
-    
+
+    public interface Motor {
+    int calcularRevolucionesMotor(int fuerza, int radio);
 }
+
